@@ -13,11 +13,11 @@ const reset = document.getElementById('btns');
 function currentTick() {
   seconds++;
   if (seconds === 60) {
-    seconds = 0;
+    seconds = 00;
     minutes++;
   }
   if (minutes === 60) {
-    minutes = 0;
+    minutes = 00;
     hours++;
   }
   time.textContent = `${hours}:${minutes}:${seconds}`;

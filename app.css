@@ -23,9 +23,26 @@ body {
   border-radius: 50px;
   margin: 5%;
 }
+.btn:active {
+  width: 60px;
+  height: 60px;
+  border: none;
+  border-radius: 50px;
+  margin: 5%;
+  background: black;
+  color: white;
+}
 .btns {
   width: 60px;
   height: 60px;
   border: none;
   border-radius: 50px;
+}
+.btns:active {
+  width: 60px;
+  height: 60px;
+  border: none;
+  border-radius: 50px;
+  background: black;
+  color: white;
 }
